@@ -39,7 +39,7 @@ a {
 }
 
 a:hover {
-    background-image: linear-gradient(gray black);
+    background-image: linear-gradient(gray, black);
 }
 
 .contactme {
@@ -87,4 +87,44 @@ a:hover {
 
 .imageradious {
     border-radius: 15px;
+}
+
+.section4 {
+    display: flex;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.divwidth {
+    width: 30%;
+}
+
+.boldh2 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.bottombox {
+    width: 90%;
+    margin-left: 3%;
+    padding: 2% 2%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+
+.eatcolor {
+    color: orangered;
+}
+
+footer {
+    height: 200px;
+    text-align: center;
+    background-color: black;
+    color: gray;
+    padding-top: 40px;
+    margin: 5px;
+}
+
+footer p {
+    color: aquamarine;
 }
